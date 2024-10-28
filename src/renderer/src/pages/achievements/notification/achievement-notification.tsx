@@ -8,7 +8,7 @@ interface AchievementInfo {
   iconUrl: string;
 }
 
-const NOTIFICATION_TIMEOUT = 4000;
+const NOTIFICATION_TIMEOUT = 6500;
 
 export function AchievementNotification() {
   const { t } = useTranslation("achievement");
@@ -26,7 +26,7 @@ export function AchievementNotification() {
 
   const playAudio = useCallback(() => {
     const audio = new Audio(achievementSound);
-    audio.volume = 0.2;
+    audio.volume = 0.5;
     audio.play();
   }, []);
 

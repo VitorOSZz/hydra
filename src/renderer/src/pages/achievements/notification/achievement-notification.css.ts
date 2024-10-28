@@ -14,10 +14,10 @@ const animationOut = keyframes({
 
 export const container = recipe({
   base: {
-    marginTop: "24px",
-    marginLeft: "24px",
+    marginTop: "100px",
+    marginLeft: "300px",
     animationDuration: "1.0s",
-    height: "60px",
+    height: "2000px",
     display: "flex",
   },
   variants: {
