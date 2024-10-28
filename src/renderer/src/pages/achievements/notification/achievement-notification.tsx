@@ -8,7 +8,7 @@ interface AchievementInfo {
   iconUrl: string;
 }
 
-const NOTIFICATION_TIMEOUT = 6500;
+const NOTIFICATION_TIMEOUT = 8000; /#Default: 6500 /
 
 export function AchievementNotification() {
   const { t } = useTranslation("achievement");

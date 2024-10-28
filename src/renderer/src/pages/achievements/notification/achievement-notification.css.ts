@@ -14,10 +14,10 @@ const animationOut = keyframes({
 
 export const container = recipe({
   base: {
-    marginTop: "100px",
-    marginLeft: "300px",
+    marginTop: "24px",
+    marginLeft: "30px",
     animationDuration: "1.0s",
-    height: "2000px",
+    height: "60px",
     display: "flex",
   },
   variants: {
@@ -40,5 +40,5 @@ export const content = style({
   gap: "8px",
   alignItems: "center",
   background: vars.color.background,
-  paddingRight: "8px",
+  paddingRight: "18px",
 });

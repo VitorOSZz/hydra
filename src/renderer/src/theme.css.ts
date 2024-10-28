@@ -4,7 +4,7 @@ export const SPACING_UNIT = 8;
 
 export const vars = createGlobalTheme(":root", {
   color: {
-    background: "#1c1c1c",
+    background: "#262526",
     darkBackground: "#151515",
     muted: "#c0c1c7",
     body: "#8e919b",
